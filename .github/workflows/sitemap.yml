@@ -3,6 +3,7 @@ name: Generate xml sitemap
 on:
   push:
     branches: [ main ]
+    paths: [ '**.html', '**.pdf' ]
 
 permissions:
   contents: write
