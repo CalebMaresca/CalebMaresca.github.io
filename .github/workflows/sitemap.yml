@@ -3,7 +3,7 @@ name: Generate xml sitemap
 on:
   push:
     branches: [ main ]
-    
+
 permissions:
   contents: write
 
@@ -23,6 +23,7 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://calebmaresca.github.io
+        exclude-paths: google9e40deb9db61ad6c.html
 
     - name: Output stats
       run: |
