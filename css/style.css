@@ -37,6 +37,10 @@ body::before {
     z-index: -1;
 }
 
+.bio-box p {
+    margin-bottom: 1rem;
+}
+
 .container {
     max-width: 900px;
     margin: 0 auto;
